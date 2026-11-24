@@ -16,19 +16,19 @@ surprising line takes the $5.
 
 ## Why this line fits the brief
 
-The judge weighs warmth first, then surprise, then one concrete detail, then
-fresh wording — and this line is built in that order. The warmth is an act,
-not a sentiment: a little brother gives up the last piece of fried chicken,
-the piece everyone at the table wants, and keeps it back for his sibling.
-The surprise lands at the end and it is a turn of character, not of plot —
-having done the kind thing, he disguises it as an accident, pretending he
-had simply forgotten the chicken was there, so the kindness arrives without
-asking for credit. The concrete detail is the single contested object
-itself: the *last* piece, which makes the sacrifice measurable in one
-glance. And the wording stays plain and spoken, with no greeting-card
-phrasing and no borrowed sentiment — nothing in the line announces that it
-is heartwarming; it just shows a small boy being quietly decent and then
-lying about it, badly.
+The judge weighs warmth first, then surprise, then one concrete detail,
+then fresh wording — and this line answers each in turn:
+
+- **Warmth:** the saved last piece — a little brother gives up the one
+  piece everyone at the table wants and keeps it back for his sibling.
+- **Surprise:** the pretended forgetting — having done the kind thing, he
+  disguises it as an accident, so the kindness arrives without asking
+  for credit.
+- **Concreteness:** the fried chicken on the plate — a single contested
+  object, and the *last* one, makes the sacrifice visible in one glance.
+- **Fresh wording:** the plain family wording — spoken and unadorned,
+  with no greeting-card phrasing and nothing that announces itself as
+  heartwarming.
 
 ## The program
 

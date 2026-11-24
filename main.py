@@ -8,6 +8,12 @@ back for his sibling, then covers the kindness up by claiming he had
 simply forgotten it was there — the love is in the saving, and the
 joke is in the pretending. Deterministic, standard library only,
 no network, no input read.
+
+The gate this program self-checks before writing anything: the
+entry must be a single line of 1-200 characters carrying no
+leading or trailing whitespace, and it lands in entry.txt inside
+the directory named by $MAKEFUN_OUTPUT_DIR with exactly one
+trailing newline appended.
 """
 
 import os
@@ -20,10 +26,11 @@ LINE = (
 
 def main() -> None:
     # Self-check the house gate before writing: the entry must be a
-    # single line of 1-200 characters. Fail loudly instead of
-    # shipping an invalid entry.
+    # single line of 1-200 characters with no leading or trailing
+    # whitespace. Fail loudly instead of shipping an invalid entry.
     assert 1 <= len(LINE) <= 200, f"entry is {len(LINE)} chars, gate is 1-200"
     assert "\n" not in LINE, "entry must be a single line"
+    assert LINE == LINE.strip(), "entry must not have leading/trailing whitespace"
 
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
